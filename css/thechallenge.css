@@ -1,0 +1,113 @@
+/** Etusivu **/
+body#thechallenge-body { background: #646464 url("../images/thechallenge/thechallenge_bg_tiles.png") top left repeat; color: #000; font: 60% verdana, sans-serif; text-align: left;  }
+body#thechallenge-body #header  { background: transparent /* url(../images/thechallenge/thechallenge_header_fp_blank.gif) top right no-repeat; */ float: left; height: 333px; margin: 0; padding: 0; width: 558px; }
+body#thechallenge-body #header #flashcontent { height: 333px; margin: 0; padding: 0; width: 558px; }
+
+#flashcontent { height: 100%; }
+
+#container-bg { background: transparent url("../images/thechallenge/thechallenge_bg.gif") top left repeat-y; width: 100%; height: auto; display: block; overflow: auto; }
+body#thechallenge-body #container, body#thechallenge-body-sub #container { height: 100%; }
+
+#footer-bg { background: transparent url("../images/thechallenge/thechallenge_footer.gif") top left no-repeat; clear: both; display: block; height: 14px; margin: 0; padding: 0; width: 729px; }
+
+/** Osioiden etusivujen header kuva **/
+body#thechallenge-body-sub { color: #000; font: 60% verdana, sans-serif; text-align: left; background: #646464 url("../images/thechallenge/thechallenge_bg_tiles.png") top left repeat; }
+body#thechallenge-body-sub #header { background: transparent url("../images/thechallenge/thechallenge_header_sub.gif") top left no-repeat; color: #000; font-family:Verdana, Arial, Helvetica, sans-serif; text-align: left; width: 558px; height: 190px; margin: 0; padding: 0; }
+
+.padding-top { padding-top: 9px; }
+
+.hallOfFameText { margin: 50px 0 0 0; padding: 0; color: #00FF00; font-size: 110%; text-transform:uppercase; }
+
+/* ------------------------- navigation ---------------- */
+#thechallenge-key { position: absolute; top: 80px; left: 0px; } /** key element **/
+.thechallenge-wide { overflow: auto; }
+* html .thechallenge-wide { overflow: visible; }
+
+/* ------------------------- box ---------------- */
+
+/* ------------------------- wider content box ---------------- */
+.box-wide { width: 479px; height: auto; background: #fff url(../images/thechallenge/thechallenge_box_wide.gif) top left repeat-y; margin: 0 0 0 25px; }
+.box-wide-top { margin: 21px 0 0 25px; background: transparent url(../images/thechallenge/thechallenge_box_wide_top.gif) top left no-repeat; width: 479px; }
+.box-wide-bottom { margin: 0 0 31px 25px; background: transparent url(../images/thechallenge/thechallenge_box_wide_btm.gif) bottom left no-repeat; width: 479px; }
+* html .box-wide-bottom { margin: 0 0 10px 25px; }
+.left-side { float: left; width: 270px; }
+.right-side { float: left; width: 172px; margin-left: 20px; _margin-left: 0; _float: right; _margin-right: 4px; }
+
+/** learn more box **/
+.thechallenge-box-learn { width: 148px; background: transparent url("../images/thechallenge/thechallenge_box_learn.gif") top left no-repeat; margin: 0 0 13px 16px; text-align: left; padding: 20px 0 0 0; }
+.thechallenge-box-learn p { padding: 0 55px 0 13px; margin: 0; }
+.thechallenge-box-learn .bottom { margin: 21px 0 0 0; font-size: 10px; line-height: 1.4; padding: 5px 8px 7px 8px; background: transparent url("../images/thechallenge/thechallenge_box_learn_btm.gif") bottom left no-repeat; }
+.thechallenge-box-learn a:link, .thechallenge-box-learn a:visited  { color: #000; }
+
+/** design box **/
+.box-design { width: 148px; margin: 0 0 13px 16px; }
+.box-design-top { width: 148px; background: transparent url("../images/thechallenge/thechallenge_box_design_top.gif") top left no-repeat; padding: 5px 0 5px 0; text-align: center; }
+.box-design-bottom { width: 148px; height: 156px; }
+.box-design-top h2 { color: #fff; }
+
+/** challenge a friend box **/
+.box-friend { width: 172px; float: right; margin: 0 0 13px 0; clear: both; }
+.box-friend-top { width: 172px; background: transparent url("../images/thechallenge/thechallenge_box_friend_top.gif") top left no-repeat; padding-top: 5px; text-align: center; }
+.box-friend-bottom { width: 172px; height: 108px;  }
+.box-friend-top h2 { color: #fff; font-size: 90%; }
+
+/** score box **/
+.thechallenge-box-score { position: relative; width: 172px; float: right; clear: both; margin: 0 0 13px 0; background: transparent url("../images/thechallenge/thechallenge_box_score.gif") top left no-repeat; text-align: left; padding: 40px 0 0 0px; }
+.thechallenge-box-score h2 { padding: 0 13px 0 13px; margin: 0; color: #FECE00; position: absolute; top: 12px; left: 35px; background: transparent; }
+.thechallenge-box-score .score { width: 161px; margin-left: 5px; }
+.thechallenge-box-score p { padding: 5px 13px 5px 13px; margin: 0; _padding-top: 0; }
+.thechallenge-box-score .bottom {margin: 0 0 0 0; font-size: 10px; line-height: 1.4; padding: 5px 8px 7px 8px; background: transparent url("../images/thechallenge/thechallenge_box_score_bottom.gif") bottom left no-repeat;}
+.thechallenge-box-score .highScoreSmall { padding: 0 9px; margin: 0; color: #FECE00; position: absolute; top: 13px; left: 35px; background: transparent; }
+.thechallenge-box-score .highScoreSmall2 { padding: 0 2px; margin: 0; color: #FECE00; position: absolute; top: 13px; left: 35px; background: transparent; }
+.thechallenge-box-score .highScoreSmall3 { font-size: 8px; padding: 0 14px; margin: 0; color: #FECE00; position: absolute; top: 14px; left: 35px; background: transparent; }
+.score-link { padding: 10px 0 0 0; }
+
+
+
+/** downloads box **/
+.thechallenge-box-dl { width: 245px; background: transparent url("../images/thechallenge/thechallenge_box_dl.gif") top left no-repeat; margin: 0 0 20px 10px; text-align: left; padding: 25px 0 0 0; text-align: center; float: left; }
+* html .thechallenge-box-dl { margin-left: 5px; }
+.thechallenge-box-dl h2 { padding: 5px 13px 5px 13px; margin: 0; color: #000; text-transform: none; }
+.thechallenge-box-dl p { padding: 5px 13px; margin: 0; }
+.thechallenge-box-dl img.margin { margin: 0 8px; }
+.thechallenge-box-dl .bottom {margin: 0; font-size: 10px; line-height: 1.4; padding: 5px 8px 7px 8px; background: transparent url("../images/thechallenge/thechallenge_box_dl_btm.gif") bottom left no-repeat;}
+.thechallenge-box-dl a:link, .thechallenge-box-dl a:visited  { color: #000; }
+.thechallenge-box-dl-margin-left { margin: 0 0 20px 20px; }
+* html .thechallenge-box-dl-margin-left { margin-left: 20px; }
+.thechallenge-box-dl-margin-top { margin: 0; }
+* html .thechallenge-box-dl-margin-top { margin: 20px 0 0  0; }
+.thechallenge-box-dl p img { padding: 1px; border: 1px solid #727272; }
+
+/* ------------------------- footer ---------------- */
+/** Footer area **/
+body#thechallenge-body #footer-area, body#thechallenge-body-sub #footer-area { width: 519px; margin-top: 20px; }
+
+/** Osioiden alasivujen footer teksti värit **/
+body#thechallenge-body .footer, body#thechallenge-body-sub .footer { color: #914603; text-align: center; }
+
+/** Osioiden alasivujen footer linkki värit **/
+body#thechallenge-body-sub .footer a:link,
+body#thechallenge-body-sub .footer a:visited,
+body#thechallenge-body-sub .footer a:hover,
+body#thechallenge-body .footer a:link, 
+body#thechallenge-body .footer a:visited,
+body#thechallenge-body .footer a:hover { color: #914603; }
+
+.thechallenge-flash-margins { margin: 0 0 0 9px; }
+
+
+
+/* box navi */
+.nav-box, .nav-box-active { margin: 0 0 7px 15px; overflow: hidden; padding: 0; width: 139px; }
+* html .nav-box, * html .nav-box-active { margin: 0 0 2px 0; }
+.nav-box-content { background: #FC6303 url(../images/thechallenge/thechallenge_nav.gif) top left repeat; color: #fff; margin: 0; padding: 0 20px 0 7px; text-align: left; }
+* html .nav-box-content { margin: -5px 0 0 0;  }
+.nav-box .top, .nav-box-active .top { background: transparent url(../images/thechallenge/thechallenge_nav_top.gif) top left no-repeat; display: block; height: 8px; margin: 0; padding: 0; width: 139px; }
+.nav-box .bottom, .nav-box-active .bottom { background: transparent url(../images/thechallenge/thechallenge_nav_btm.gif) top left no-repeat; display: block; height: 8px; margin: 0; padding: 0; width: 139px; }
+.nav-box p { margin: 0; padding: 0; }
+.nav-box-content a:link, .nav-box-content a:visited, .nav-box-content a:hover, .nav-box-content a:active { color: #fff; display: block; font-size: 1.05em; _font-size: 1.1em; padding: 0; text-decoration: none; text-transform: uppercase; }
+/* active */
+.nav-box-active .nav-box-content { background: transparent url(../images/thechallenge/thechallenge_nav_a.gif) top left no-repeat;}
+.nav-box-active .top { background: transparent url(../images/thechallenge/thechallenge_nav_top_a.gif) top left no-repeat; }
+.nav-box-active .bottom { background: transparent url(../images/thechallenge/thechallenge_nav_btm_a.gif) top left no-repeat; }
+.nav-box-active a:link, .nav-box-active a:visited, .nav-box-active a:hover, .nav-box-active a:active { color: #000; }

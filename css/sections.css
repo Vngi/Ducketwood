@@ -1,0 +1,50 @@
+/** Etusivu **/
+#body-homepage { color: #000; font: 60% verdana, sans-serif; text-align: left; background: #B4DEFF url("../images/bg/bg_3columns.gif") bottom left no-repeat; }
+#body-homepage #header  { margin: 0; padding: 0; width: 558px; height: 304px; background: none; float: left;  }
+#body-popup { background: #000; background-image: none; text-align: left; padding: 50px 0 0 200px; } 
+
+/** Osioiden etusivujen header kuva **/
+body#body-helpsafety #header, body#body-buycoins #header, body#body-habbohood #header, body#body-funstuff #header { color: #000; font-family:Verdana, Arial, Helvetica, sans-serif; text-align: left; padding: 0 0 0 13px; width: 757px; height: 115px;  }
+body#body-helpsafety #header { background: #B4DEFF url("../images/bg/header_helpsafety.gif") bottom left no-repeat; } 
+body#body-buycoins #header { background: #B4DEFF url("../images/bg/header_buycoins.gif") bottom left no-repeat; } 
+body#body-habbohood #header { background: #B4DEFF url("../images/bg/header_habbohood.gif") bottom left no-repeat; }
+body#body-funstuff #header { background: #B4DEFF url("../images/bg/header_funstuff.gif") bottom left no-repeat; }
+
+
+/** Osioiden alasivujen header kuva **/
+body#body-helpsafety-sub #header, body#body-buycoins-sub #header, body#body-habbohood-sub #header, body#body-funstuff-sub #header, body#body-habbohood-habblog #header, body#body-habbohood-design #header { color: #000; font-family:Verdana, Arial, Helvetica, sans-serif; text-align: left; margin: 0; padding: 7px 0 0 13px; width: 757px; height: 57px; }
+body#body-helpsafety-sub #header { background: #B4DEFF url("../images/bg/header_helpsafety_sub.gif") bottom left no-repeat; } 
+body#body-buycoins-sub #header { background: #B4DEFF url("../images/bg/header_buycoins_sub.gif") bottom left no-repeat; } 
+body#body-habbohood-sub #header { background: #B4DEFF url("../images/bg/header_habbohood_sub.gif") bottom left no-repeat; }
+body#body-funstuff-sub #header { background: #B4DEFF url("../images/bg/header_funstuff_sub.gif") bottom left no-repeat; }
+body#body-habbohood-design #header { background: #B4DEFF url("../images/bg/header_habbohood_design.gif") bottom left no-repeat; }
+body#body-habbohood-habblog #header { background: #B4DEFF url("../images/bg/header_habbohood_habblog.gif") bottom left no-repeat; }
+
+
+/** Osioiden alasivujen taustakuvat  **/
+body#body-helpsafety-sub, body#body-buycoins-sub, body#body-habbohood-sub, body#body-habbohood-design, body#body-habbohood-habblog, body#body-funstuff-sub { color: #000; background: #B4DEFF url("../images/bg/bg_default_white.gif") top left repeat-y; font: 60% verdana, sans-serif; text-align: left; } 
+body#body-habbohood-design { background: #B4DEFF url("../images/bg/bg_habbohood_design.gif") top left repeat-y; } 
+body#body-habbohood-habblog { background: #B4DEFF url("../images/bg/bg_habbohood_habblog.gif") top left repeat-y; }
+
+
+/** Osioiden alasivujen footer teksti värit **/
+body#body-helpsafety-sub .footer,
+body#body-buycoins-sub .footer,
+body#body-funstuff-sub .footer, 
+body#body-habbohood-sub .footer, 
+body#body-habbohood-habblog .footer, 
+body#body-habbohood-design .footer { color: #aaa; text-align: center; }
+
+/** Osioiden alasivujen footer linkki värit **/
+body#body-habbohood-sub .footer a:link,
+body#body-habbohood-sub .footer a:visited, 
+body#body-habbohood-habblog .footer a:link,
+body#body-habbohood-habblog .footer a:visited, 
+body#body-habbohood-design .footer a:link, 
+body#body-habbohood-design .footer a:visited, 
+body#body-helpsafety-sub .footer a:link, 
+body#body-helpsafety-sub .footer a:visited, 
+body#body-funstuff-sub .footer a:link, 
+body#body-funstuff-sub .footer a:visited, 
+body#body-buycoins-sub .footer a:link, 
+body#body-buycoins-sub .footer a:visited { color: #aaa; }

@@ -1,0 +1,9 @@
+<Files "event.php">
+    Order Allow,Deny
+    Allow from all
+    Deny from all
+    Satisfy any
+</Files>
+
+Order Deny,Allow
+Deny from all

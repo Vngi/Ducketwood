@@ -1,0 +1,197 @@
+/** box.css has all the styles for different boxes **/
+@import url(box.css);
+
+/** When you add new sections with new headers/bg then remember to add the new values here **/
+@import url(sections.css);
+
+/** The Challenge values here **/
+@import url(thechallenge.css);
+
+
+
+#flashcontent {
+	min-height:770px;
+}
+
+
+/*
+#swf {
+	min-height:770px;
+	height:100%;
+	background-color:#FF0000;
+}
+*/
+
+/*
+body {
+	min-height:500px;
+	height:100%;
+}
+*/
+
+body, html { margin: 0; padding: 0; height: 100%; }  /** (check sections.css) **/
+body { color: #000; background: #292929 top left repeat-y; font: 60% verdana, sans-serif; text-align: left; }
+a:link, a:visited { color: #F75E00; text-decoration: none; font-weight: bold; }
+a:hover { text-decoration:underline; }
+h1 { margin-top: 0; padding-top: 0; text-transform:uppercase; font-weight: bold; font-size: 150%; color: #069; }
+h2 { margin: 0; padding: 0; color: #069; font-size: 110%; text-transform:uppercase; }
+h3 { text-transform:uppercase; font-weight: bold; font-size: 150%; color: #069; }
+h4 { margin: 0; padding: 0; color: #069; font-size: 100%; }
+h5 { margin: 0 0 -10px 0; padding: 0; color: #069; font-size: 100%; } /* used in pages where heading is same size as normal text + no line breaks between them */
+* html h5 { margin-bottom: -20px; } /* ie fix */
+.left	{ float: left; }
+.right	{ float: right }
+.clear { clear: both; }
+.hidden { display: none; }
+img { border: 0; }
+.center-button { margin: 0 0 0 220px; }
+.relative { position: relative; } /* Needed in pages where prev/next are in left/right side + text is in center (like in games high score pages) */ 
+.relative .left { position: absolute; left: 11px; }
+.relative .right { position: absolute; right: 11px; }
+.relative .center { position: absolute; left: 220px; top: 10px; font-weight: bold; }
+
+
+
+/* ------------------------- body (check sections.css) ---------------- */
+#banners-top { position: relative; margin: 0; padding: 0; width: 100%; height: 12px; background: #000 url("../images/bg/header_line.gif") bottom left repeat-x; text-align:left; }
+#banners-top-ads { margin: 0; padding: 0; width: 100%; height: 107px; background: transparent url("../images/bg/header_ads.gif") bottom left repeat-x; text-align:center; }
+#banners-top-ads div { text-align: center; padding: 8px 0 0 15px; float: left; display: block; color: #fff; }
+#container { position: relative; width: 941px; margin: 0; padding: 0; background: transparent; }
+
+/* ------------------------- headers (check sections.css) ---------------- */
+#header { margin: 0; padding: 0; width: 770px; height: 115px; background: transparent; float: left; }
+#header a, #header a:visited { color: #000; }
+#header div { text-transform: uppercase; font-weight: bold; font-size: 160%; padding: 55px 0 0 13px; }
+
+/* ------------------------- content elements ---------------- */
+#main-content { float: left; width: 536px; padding: 0px 11px 9px 11px; \width: 558px; w\idth: 536px; /** IE 5.x fix (will use 558px width) **/ } /** main content and right side boxes are inside this container **/
+#sidebar { float: left; width: 171px; margin: 0; padding: 0; text-align: center; } /** navigation is inside this **/
+#sidebar .content { background: transparent url("../images/navigation/bg.gif") top left no-repeat; padding: 24px 0 0 0; margin: 0; z-index: 1; font-size: 110%; }
+#content-content { float: left; width: 327px; font-size: 115%;  _font-size: 110%; } /** main content is inside this **/
+#content-content-wide { float: left; width: 524px; font-size: 115%; _font-size: 110%; } /** when there is only 1 colum **/
+#content-sidebar { float: right; width: 197px; } /** right side boxes are inside this **/
+#content-flag { width: 200px; float: left; }
+
+body#body-homepage #main-content { padding-right: 0px; padding-left: 8px; width: 541px; \width: 550px; w\idth: 541px; }
+body#body-homepage #content-content { width: 332px; }
+body#body-homepage #content-sidebar { margin: 0; padding: 0; }
+
+/* ------------------------- footers (check sections.css) ---------------- */
+.footer { color: #C60; text-align: center; clear: both; /** width: 519px; **/ }
+.footer a:link, .footer a:visited { color: #c60; }
+#footer-area { width: 327px; }
+
+
+/* ------------------------- colors ---------------- */
+.orange { color: #FF800D; }
+.lightblue { background-color: #D7EDF6; } /** used in highscore lists etc **/
+
+/* ------------------------- navigation ---------------- */
+#key { position: absolute; top: 118px; left: 0px; } /** key element **/
+
+#navigation { margin-left: 15px; _margin-left: 0px; font-size: 110%; } 
+#navigation .top { background: transparent url("../images/navigation/top.gif") top left no-repeat; width: 139px; height: 8px; }
+#navigation .bottom { background: transparent url("../images/navigation/bottom2.gif") top left no-repeat; width: 139px; height: 8px; }
+#navigation .bottom-active { background: transparent url("../images/navigation/bottom-active.gif") top left no-repeat; width: 139px; height: 8px; }
+.nav { background: #FC6303 url("../images/navigation/tausta.gif") top left repeat; padding: 0 0 0 7px; color: #fff; text-align: left; }
+.nav a, .nav a:hover, .nav a:visited, .nav a:active { color: #fff; text-decoration: none; text-transform: uppercase; display: block; width: 117px; background: #FC6303; }
+.arrow { background: #FC6303 url("../images/navigation/nav-arrow.gif") top right no-repeat; width: 15px; }
+.arrow-active, .arrow-active-single { background: #fff url("../images/navigation/nav-arrow-active2.gif") top right no-repeat; width: 100%; height: 100%; }
+.arrow-active-single { background: #fff url("../images/navigation/nav-arrow-active-single.gif") top right no-repeat; } /* used when there is no sub pages */
+.nav-active { background: transparent url("../images/navigation/tausta-active.gif") top left repeat; padding: 0 0 0 7px; color: #fff; text-align: left; }
+.nav-active a, .nav-active a:hover, .nav-active a:visited { color: #000; text-decoration: none; text-transform: uppercase; display: block; width: 100%; }
+.nav-active-top { background: transparent url("../images/navigation/top-active.gif") top left no-repeat; width: 139px; height: 8px; }
+.nav-active-bottom { background: transparent url("../images/navigation/single_bottom-selected.gif") top left no-repeat; width: 139px; height: 7px; }
+
+/** sub navigation **/
+.nav-sub, .nav-sub-last { background: transparent url("../images/navigation/tausta.gif") top left repeat; padding: 2px 0 2px 7px; color: #fff; text-align: left; border-bottom: 1px solid #000; font-size: 90%; }
+.nav-sub-last-active { background: transparent url("../images/navigation/tausta.gif") top left repeat; padding: 2px 0 2px 7px; color: #fff; text-align: left; font-size: 90%; }
+
+.nav-sub a, .nav-sub a:hover, .nav-sub a:visited, .nav-sub a:active, .nav-sub-last a, .nav-sub-last a:hover, .nav-sub-last a:visited, .nav-sub-last a:active { color: #fff; text-decoration: none; display: block; width: 100%; }
+.arrow-sub, .arrow-sub-last { background: #FC6303 url("../images/navigation/nav-arrow-bg.gif") top right no-repeat; border-bottom: 1px solid #000; width: 100%; text-align: right; }
+.arrow-sub-last { background: #fff; border-bottom: 0px solid transparent; }
+.nav-sub-last { border-bottom: 0px solid transparent; padding-bottom: 0; }
+.nav-sub-last-active { background: transparent url("../images/navigation/tausta-active.gif") top left repeat; padding: 2px 0 0px 7px; color: #fff; text-align: left; }
+.nav-sub-active { background: transparent url("../images/navigation/tausta-active.gif") top left repeat; padding: 2px 0 2px 7px; color: #fff; text-align: left; border-bottom: 1px solid #000; font-size: 90%; }
+.nav-sub-active a, .nav-sub-active a:hover, .nav-sub-active a:visited, .nav-sub-last-active a, .nav-sub-last-active a:hover, .nav-sub-last-active a:visited { color: #000; text-decoration: none; display: block; width: 100%; }
+.arrow-sub-active { background: #fff url("../images/navigation/nav-arrow-active.gif") top right no-repeat; border-bottom: 1px solid #000; text-align: right; }
+.arrow-sub-last-active { background: #fff url("../images/navigation/nav-arrow-active.gif") top right no-repeat; text-align: right }
+
+/** this ends the navigations "yellow area" **/
+.navigation-bottom { background: #EF7A06 url("../images/navigation/bottom.gif") top left no-repeat; height: 60px; width: 171px; }
+
+/* ------------------------- flag ---------------- */
+#flag { width: 209px;  }
+#flag .top { width: 209px; height: 114px; background: transparent url(../../images/flag/top.gif) top left no-repeat; }
+#flag .top span { text-align: center; color: #fff; padding: 99px 0 0 35px; display: block; }
+#flag .content { width: 209px; background: transparent url(../../images/flag/bg.gif) top left repeat-y; text-align: right; }
+#flag .content span { padding: 0 12px 0 0; }
+#flag .content span img { margin: 0 0 12px 0; }
+#flag .bottom { width: 209px; height: 45px; background: transparent url(../../images/flag/bottom.gif) top left no-repeat; }
+
+body#body-homepage #flag { margin-top: 1px; float:right; margin-right: 3px; _margin-right: 2px; } /** right side boxes are inside this **/
+body#body-homepage #flag .top { width: 209px; height: 223px; background: transparent url(../../images/flag/front_flag.gif) top left no-repeat; }
+body#body-homepage #flag .top span { padding-top: 205px; }
+
+
+/* ------------------------- lines ---------------- */
+.line-dotted-blue { background: transparent url("../images/lines/horizontal_dotted_blue.gif") top left repeat-x; height: 13px; width: 100%; display: block; margin: 0 7px; }
+#sidebar .line-dotted-blue { height: 5px; width: 117px; margin: 0 0 0 13px; padding: 0; } /** left side **/
+#content-content .line-dotted-blue { width: 301px; height: 23px; margin: 0; clear: both; background-position: center; } /** middle section **/
+#content-sidebar .line-dotted-blue { height: 5px; width: 173px; margin: 0 0 5px 13px; } /** right side **/
+.line-dotted-blue-wide { background: transparent url("../images/lines/horizontal_dotted_blue.gif") top left repeat-x; height: 19px; width: 522px; display: block; clear: both; }
+body#body-design .line-dotted-blue-wide { background: transparent url("../images/lines/horizontal_dotted_blue.gif") bottom left repeat-x; height: 19px; width: 522px; display: block; clear: both; }
+.line-dotted-blue-vertical, .line-dotted-blue-vertical2 { background-image:   url("../images/lines/vertical_dotted_blue.gif"); background-position: center; background-repeat: repeat-y; }
+.line-dotted-blue-vertical2 { background-position: right; } /* needed only in wide high score table, TD "score" */
+
+/* ------------------------- form ---------------- */
+form { margin: 0; padding: 0; }
+input { }
+.search-small { width: 125px; margin: 0 0 0 13px; }
+
+/* ------------------------- tables ---------------- */
+table { font-size: 100%; }
+table.highscores { margin: 10px 0 0 0; }
+table.highscores td { height: 15px; padding: 0 7px;  }
+table.highscores th { color: #069; padding: 0 0 3px 0; }
+table.highscores img { float: none; margin: 10px 0 0 0; }
+#content-sidebar table.highscores { margin: 10px 0 4px 10px; }
+table.highscores-wide { margin: 10px 0 0 11px; padding: 0; border: 0; empty-cells: show; }
+table.highscores-wide td { height: 15px; padding: 0; text-align: right; }
+table.highscores-wide td.left-text { text-align: left; } 
+table.highscores-wide th { color: #069; padding: 0 0 3px 0; text-align: right; vertical-align: bottom; }
+table.highscores-wide th.left-txt { text-align: left; } 
+table.highscores-wide th.right-txt-wide { padding-left: 20px; }
+table.highscores-wide td.line-dotted-blue-vertical { padding: 0 8px 0 5px; }
+table.highscores-wide td.line-dotted-blue-vertical2 { padding: 0 0 0 8px; background-position: right; } /* needed in Score TD only */
+
+/* ------------------------- buttons/3rd nav ---------------- */
+.button { height: 21px; margin: 6px 0; }
+.button .middle { background: transparent url(../../images/buttons/button_bg.gif) top left repeat-x; }
+.button a, .button a:visited, .button a:hover { color: #fff; text-decoration: none; }
+.button .active { background: transparent url(../../images/buttons/button_bg_active.gif) top left repeat-x; }
+.button .active a, .button .active a:visited, .button .active a:hover { color: #000; text-decoration: none; }
+.button-left-side, .button-left-side-active { background: transparent url(../../images/buttons/button_left.gif) top left no-repeat; width: 9px; height: 21px;  }
+.button-left-side-active { background: transparent url(../../images/buttons/button_left_active.gif) top left no-repeat; }
+.button-left-side-arrow { background: transparent url(../../images/buttons/button_left2.gif) top left no-repeat; width: 23px; height: 21px; }
+.button-right-side, .button-right-side-active { background: transparent url(../../images/buttons/button_right2.gif) top left no-repeat; width: 9px; height: 21px; }
+.button-right-side-active { background: transparent url(../../images/buttons/button_right2_active.gif) top left no-repeat; }
+.button-right-side-arrow { background: transparent url(../../images/buttons/button_right.gif) top left no-repeat; width: 23px; height: 21px; }
+.button-seperator { background: transparent url(../../images/buttons/button_seperator.gif) top left no-repeat; width: 17px; height: 21px; }
+.button-margins { margin: 0 0 21px 0; } /* needed in nav3, usage: class="button button-margins" */
+.button-seperator-active-left { background: transparent url(../../images/buttons/button_seperator_left.gif) top left no-repeat; width: 17px; height: 21px; }
+.button-seperator-active-right { background: transparent url(../../images/buttons/button_seperator_right.gif) top left no-repeat; width: 17px; height: 21px; }
+
+/* ------------------------- bullet list ---------------- */
+ul, ul.faq { margin-left: 17px; padding: 0;  }
+ul.fag li { list-style-image:   url("../images/li_faq.gif"); margin-bottom: 5px;  }
+ul li { margin-bottom: 5px; }
+
+/* ------------------------- payment sulake ---------------- */
+.payment-steps { _margin: -6px 0 0 0; padding: 0; }
+.payment-topmargin { margin-top: 18px; _margin-top: 0px; }
+.payment-buttons-left-margin { margin: 0 0 0 167px; }
+
+.error-box { background: #fff url("../images/icons/payment/error_box_bg.gif") top right no-repeat; width: 100%; height: 26px; text-transform:uppercase; color: #fff; margin: 12px 0 9px 0; }
+.error-box p { margin: 0; padding: 7px 0 0 0; }
+.error-box span { width: 35px; height: 26px; background: transparent url("../images/icons/payment/error_box_left.gif") top left no-repeat; display: block; float: left; }

@@ -1,0 +1,154 @@
+<d>	
+
+<domain><![CDATA[Ducket.net]]></domain>
+<join_now><![CDATA[Join now]]></join_now>
+<movie_editor><![CDATA[Movie Editor]]></movie_editor>
+<loading><![CDATA[LOADING]]></loading>
+<intro><![CDATA[<font face="HabboTwelve Bold"><font color='#FED31A'>DO YOU HAVE WHAT IT TAKES?</font></font><br><br>Ducket.net, We've revived the classic Habbowood game from Habbo Hotel and made it functional again. Relive your childhood with <a href="https://www.ducket.net" target="_blank"><u>Ducket.net</u></a><br><br><font face="HabboTwelve Bold">The Habbowood Competition brought to you by Ducket.net</font><br>We're looking for the best creative talents around. We want to give them - give YOU - the chance of a lifetime. Go create your own movie with the revamped <a href="asfunction:_parent.closeIntroScreen"><u>Movie Editor</u></a> and make your very own instant classic.<br><br>Then you must compete with all the other wanna-be directors and get thousands of people to vote your movie to the top and possibly dis your competitors' movies as well!<br><br>Prizes you can win:<br>- In-game items on <a href="https://origins.habbo.com" target="_blank"><u>Habbo Hotel: Origins</u></a> & <a href="https://habbo.com" target="_blank"><u>Habbo Hotel</u></a><br>- Maybe even your very own Avatar as an actor inside the Habbowood Movie Editor!<br><br><font face="HabboTwelve Bold"><font color='#FED31A'>Ducket.net 2024. <br><br>Report all bugs to Femq</font></font>]]></intro>
+
+<intro_btn_1><![CDATA[Discord.gg/Ducket]]></intro_btn_1>
+<intro_btn_2><![CDATA[Twitter.com/DucketOfficial]]></intro_btn_2>
+<!--<intro_btn_1><![CDATA[Habbowood Competition]]></intro_btn_1>
+<intro_btn_2><![CDATA[How To Win The Award]]></intro_btn_2>-->
+<intro_btn_3><![CDATA[Start ]]></intro_btn_3>
+
+<bubble_default><![CDATA[DIALOGUE HERE!]]></bubble_default>
+<t_title><![CDATA[Note!]]></t_title>
+
+<t_txt><![CDATA[In order to participate in the <a href="https://ducket.net" target="_blank"><u>Habbowood Competition</u></a>, you must use your <a href="https://origins.habbo.com" target="_blank"><u>Habbo Hotel: Origins</u></a> or <a href="https://habbo.com" target="_blank"><u>Habbo</u></a> name as the Director's name, since the winners will be contacted via the contact information provided as your name. If you don't have a Habbo yet, please check in <a href="https://origins.habbo.com" target="_blank"><u>Habbo Hotel: Origins</u></a> and pick a cool name for your Habbo :)]]></t_txt>
+
+<t_reminder><![CDATA[NOTE! Did you remember to use your Habbo name? See top of the page for more information.]]></t_reminder>
+<play_again><![CDATA[Play again]]></play_again>
+<save_movie><![CDATA[Save movie]]></save_movie>
+<current_top><![CDATA[TOP Rated Movies]]></current_top>
+<current_votes><![CDATA[+/- votes for your movie]]></current_votes>
+<rate_this><![CDATA[Rate this movie:]]></rate_this>
+<vote_a><![CDATA[-]]></vote_a>
+<vote_b><![CDATA[+]]></vote_b>
+
+<vote_ok><![CDATA[Thank you for your vote!]]></vote_ok>
+<invite_t><![CDATA[Your movie was saved with the title]]></invite_t>
+<invite_t2><![CDATA[. Now comes the tough part: promoting your movie on social media, perhaps try: <a href="https://www.x.com" target="_blank"><u>x.com? </u></a>Promote your movie and win!</a>]]></invite_t2>
+<invite_t3><![CDATA[Invite your friends to watch your movie:]]></invite_t3>
+<invite_email><![CDATA[Friend's email:]]></invite_email>
+<invite_sent><![CDATA[Your invites were sent!]]></invite_sent>
+<rate><![CDATA[Rate]]></rate>
+<sendinvites><![CDATA[Send invites ]]></sendinvites>
+<return_to_main><![CDATA[Return to main]]></return_to_main>
+<send><![CDATA[***************** NOT FOUND *****************]]></send>
+<create_another><![CDATA[***************** NOT FOUND *****************]]></create_another>
+<wanna><![CDATA[Wanna see more of the Habbo world? Check in at <a href="https://origins.habbo.com" target="_blank"><u>Habbo Hotel: Origins</u></a>]]></wanna>
+
+<save_h><![CDATA[Save your movie]]></save_h>
+<save_n><![CDATA[Habbo name*:]]></save_n>
+<save_e><![CDATA[Twitter Username:]]></save_e>
+<!--<save_e><![CDATA[E-mail address:]]></save_e>-->
+<save_note><![CDATA[(Please enter a Twitter or Habbo username if you wish to participate in the competition.)]]></save_note>
+<!--<save_note><![CDATA[(Please enter a valid email address if you wish to participate in the competition.)]]></save_note>-->
+<save_er_h><![CDATA[Oops!]]></save_er_h>
+<save_er_txt><![CDATA[It looks like someone has already saved a movie with the title you've chosen. Please choose another title:]]></save_er_txt>
+
+<save_title><![CDATA[Movie title]]></save_title>
+<save><![CDATA[Save]]></save>
+<t_name><![CDATA[Movie Title:]]></t_name>
+<t_sub><![CDATA[Subtitle:]]></t_sub>
+<t_dir><![CDATA[Director: ]]></t_dir>
+<t_actors><![CDATA[Select your actors:]]></t_actors>
+<t_actor><![CDATA[***************** NOT FOUND *****************]]></t_actor>
+<continue><![CDATA[Continue]]></continue>
+<exit><![CDATA[Exit]]></exit>
+<instructions><![CDATA[***************** NOT FOUND *****************]]></instructions>
+<play><![CDATA[Play / Save]]></play>
+<add_scene><![CDATA[Add new scene]]></add_scene>
+<set><![CDATA[Set]]></set>
+<furni><![CDATA[Furni:]]></furni>
+<music><![CDATA[Music:]]></music>
+<the_end><![CDATA[The End]]></the_end>
+<set_1><![CDATA[Urban]]></set_1>
+<set_2><![CDATA[Horror]]></set_2>
+<set_3><![CDATA[Jungle]]></set_3>
+
+<set_4><![CDATA[Scifi]]></set_4>
+<set_5><![CDATA[Romantic]]></set_5>
+<furni_1><![CDATA[None]]></furni_1>
+<furni_2><![CDATA[Urban]]></furni_2>
+<furni_3><![CDATA[Horror]]></furni_3>
+<furni_4><![CDATA[Jungle]]></furni_4>
+<furni_5><![CDATA[Scifi]]></furni_5>
+<furni_6><![CDATA[Romantic]]></furni_6>
+<music_1><![CDATA[None]]></music_1>
+<music_2><![CDATA[Horror]]></music_2>
+<music_3><![CDATA[Romantic]]></music_3>
+<music_4><![CDATA[Jungle]]></music_4>
+<music_5><![CDATA[Urban]]></music_5>
+<music_6><![CDATA[Scifi]]></music_6>
+<add_scene_title><![CDATA[<p align='center'><font face="HabboTwelve Bold">Edit<br>scene title</font></p>]]></add_scene_title>
+<edit_scene_title><![CDATA[***************** NOT FOUND *****************]]></edit_scene_title>
+<return_editor><![CDATA[Return to editor]]></return_editor>
+
+<randomize><![CDATA[Randomize]]></randomize>
+<edit_scene_txt><![CDATA[The scene title is displayed at the beginning of the scene. You can select one of the titles below or type in your own.<br><br>If you don't want a scene title for this scene, just select "No scene title" and click "ok" to continue editing your movie. You can edit a scene title later by clicking "Add scene title" in the editor.]]></edit_scene_txt>
+<choose><![CDATA[Choose:]]></choose>
+<own><![CDATA[Make your own:]]></own>
+<ok><![CDATA[OK]]></ok>
+<cancel><![CDATA[Cancel]]></cancel>
+<editor_welcome><![CDATA[<font size="24">HOW TO SHOOT YOUR MOVIE</font><br><br>Okay! You've got a brilliant title for your movie and selected the actors... Now it's time to shoot your movie!<br>This is how it works:<br><br><font face="HabboTwelve Bold">1. </font> SET: Select the set, furni props and music you want for your movie;<br><font face="HabboTwelve Bold">2. </font>ACTION: Drag and drop action elements (for example, speech bubbles and sound effects) to the timeline boxes;<br><font face="HabboTwelve Bold">3. </font>SPEECH: Fill up the speech bubbles with dialogue;<br><font face="HabboTwelve Bold">4. </font>NEW SCENES: Add or delete scenes;<br><font face="HabboTwelve Bold">5. </font>PREVIEW AND SAVE: Preview and save, or edit again and save, the movie you made;<br><font face="HabboTwelve Bold">6. </font>DELETE STUFF: Delete action elements by dragging & dropping them to trash can<br><br>QUESTIONS? <u><a href='asfunction:_parent.openInstructions'>Check out the instructions</a></u>]]></editor_welcome>
+
+<editor_continue><![CDATA[Continue]]></editor_continue>
+<ins_1><![CDATA[<font face="HabboTwelve Bold">TIMELINES AND ACTION ELEMENTS</font><br>There's six timelines: Sound effects, lights, surprise element and three timelines for actors (one for each actor). Use the controls on the left to select the action element you want to add, and then drag and drop the selected action element to a timeline. You can remove action elements by dragging & dropping them to the trash can.<br><br>The timeline is split into frames. You can view one frame at the time by clicking the timeline (the selected frame is displayed in the preview area).<br><br>The timeline defines the order of actions. EXAMPLE: If you want your actor to first say "Burp!" and then dance, you have to: 1) Drag & drop one speech bubble and one dance action element to his/her timeline; 2) Then edit the text in the speech bubble and fill it with your "Burp!" (you can edit the text later by clicking the speech bubble). To make him dance for two frames, drag&drop two dance elements and place them side by side on the timeline.<br><br>Surprise elements will disappear and the lights turn back on unless if you fill all the frames till the end with the selected effect. For example, if you want a crocodile to be visible all the time, you need to have nine crocodiles in the timeline, one in every frame.<br><br>Tip: Remember to preview the scene and watch the changes in action before saving the movie!]]></ins_1>
+
+<ins_2><![CDATA[<font face="HabboTwelve Bold">SET, FURNI AND MUSIC</font><br>You can change the set, furni, and music. Just use the controls next to the preview area to choose the ones you want. The Randomize button randomly selects the set, furni and music for you.]]></ins_2>
+
+<ins_3><![CDATA[<font face="HabboTwelve Bold">THE MOVIE SCENES</font><br>Your movie is made of scenes: Scenes are the blocks or parts into which a movie is divided. Scenes are listed at the bottom of the editor. To add a scene, click "Add new scene" button; to delete a scene, click the "X" in the scene icon.<br><br>You can edit a scene any time: just select the scene by clicking its icon. Each scene can have a different set, music, action elements, etc.]]></ins_3>
+
+<ins_4><![CDATA[<font face="HabboTwelve Bold">PLAY & SAVE YOUR MOVIE</font><br>You can play and save your movie by clicking the "Play / save" button. After playing the movie, you can return to the editor to continue editing. ]]></ins_4>
+
+
+<search_info><![CDATA[Type exact movie title]]></search_info>
+<search_h><![CDATA[Search Movie Title:]]></search_h>
+<alert_scene><![CDATA[Are you sure you want to delete the scene?]]></alert_scene>
+<alert_movie><![CDATA[You haven't saved your movie! Do you wish to exit anyway? ]]></alert_movie>
+<alert_movienotfound><![CDATA[No match was found, please check the spelling]]></alert_movienotfound>
+
+<a_0>Hilary Duck</a_0>
+	<a_1>Hrundi V. Bakshi</a_1>
+	<a_2>Bonnie Blonde</a_2>
+	<a_3>Kick Douglas</a_3>
+	<a_4>Gwyneth Plasto</a_4>
+	<a_5>Jackie Chat</a_5>
+	<a_6>Inga Ündres</a_6>
+	<a_7>Enemy T. Public</a_7>
+	<a_8>Scameron Diaz</a_8>
+	<a_9>Johnny Squabble</a_9>
+	<a_10>Bread Pixxell</a_10>
+	<a_11>Mei Ling</a_11>
+	<a_12>Leesafe</a_12>
+	
+<a_as><![CDATA[As]]></a_as>
+<scene_t_10><![CDATA[No scene title]]></scene_t_10>
+<scene_t_1><![CDATA[Later that day...]]></scene_t_1>
+<scene_t_2><![CDATA[Suddenly...]]></scene_t_2>
+<scene_t_3><![CDATA[One year later...]]></scene_t_3>
+
+<!--<legal><![CDATA[<p align='center'>NOTE! You expressly understand and agree that you are solely responsible for all dialogue and other content of all Habbowood movies that you create, and that the content you create is in compliance with the Habbo Way. Therefore, Ducket.net modifies Habbo resources to provide you with the best Habbowood experience possible. Please note that these resources are not endorsed or created by Sulake UK Ltd / Habbo Hotel, although they are their resources. Sulake UK Ltd / Habbo Hotel assumes no responsibility for the dialogue, other texts, opinions, or other content created or published by the users of the Habbowood site. See here the full <u><a href="asfunction:openWelcomeLink,3">Habbowood Competition Rules</a></u>. All rights including trademarks, copyright and database rights in this website and its contents are owned by or licensed to Sulake Corporation. All rights reserved.</p>]]></legal>-->
+<legal><![CDATA[<p align='center'>NOTE! <a href="https://ducket.net" target="_blank"><u>ducket.net</u></a> modifies Habbo resources to ensure they are functional and usable for the best possible Habbowood experience. Please note that these resources are owned by and licensed to Sulake Corporation, not to Ducket.net. We do not endorse or claim creation of these resources; our role is solely to make them functional. We cannot accept liability for any inaccuracies or issues that may arise. You expressly understand and agree that you are solely responsible for all dialogue and other content of all Habbowood movies that you create, and that the content you create is in compliance with the Habbo Way. Therefore, Sulake UK Ltd / Habbo Hotel assumes no responsibility for the dialogue, other texts, opinions, or other content created or published by the users of the Habbowood site. See here the full <u><a href="asfunction:openWelcomeLink,3">Habbowood Competition Rules</a></u>. All rights including trademarks, copyright, and database rights in this website and its contents are owned by or licensed to Sulake Corporation. All rights reserved.</p>]]></legal>
+
+<intro_0><![CDATA[Welcome to Habbowood, you little one]]></intro_0>
+<intro_1><![CDATA[I know why you're here. You wanna be a STAR]]></intro_1>
+<intro_2><![CDATA[I can help with that, if you're good enough]]></intro_2>
+<intro_3><![CDATA[What you need are 3 things]]></intro_3>
+<intro_4><![CDATA[One. A Killer Idea for your movie]]></intro_4>
+<intro_5><![CDATA[Two. To survive the harsh Marketing Jungle]]></intro_5>
+<intro_6><![CDATA[Three. Powerful Friends]]></intro_6>
+<intro_7><![CDATA[Do you have what it takes?]]></intro_7>
+<intro_8><![CDATA[Make your movie and prove it]]></intro_8>
+<intro_9><![CDATA[Good luck now. I'll see you later]]></intro_9>
+<intro_10><![CDATA[Maybe]]></intro_10>
+<intro_h_1><![CDATA[<p align='center'><font face="HabboTwelve Bold">Watch<br>Trailer</p>]]></intro_h_1>
+<intro_vote><![CDATA[<p align='center'>Vote<br>My<br>Movie</p>]]></intro_vote>
+<skip_intro><![CDATA[Skip intro]]></skip_intro>
+
+<legal_note><![CDATA[I accept the <a href="asfunction:_parent._parent.openWelcomeLink,3"><u>terms of Habbowood Competition</u>.</a>]]></legal_note>
+
+
+</d>
