@@ -29,6 +29,10 @@ Habbowood is an updated version of an old Habbo feature. This repository include
 - **Events.php**: Completely rewritten to use an updated version of SQL (SQLite).
 - **Main.swf**: Modified to remove the email address requirement when submitting movies.
 
-For more information on using JPEXS Free Flash Decompiler, visit [JPEXS Free Flash Decompiler](https://www.free-decompiler.com/flash/). 
+## Conclusion
+
+- If you want to simply have a working function without any SWF edits including the removal of email checks, you can simply replace your event.php with the one provided here as well using our database. 
+
+For more information on using JPEXS Free Flash Decompiler, visit [JPEXS Free Flash Decompiler]([https://www.free-decompiler.com/flash/](https://github.com/jindrapetrik/jpexs-decompiler)). 
 
 Feel free to explore and customize this project to fit your needs!
