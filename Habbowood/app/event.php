@@ -1,22 +1,22 @@
 <?php
 
+function hashIP($ip)
+{
+    return hash('sha256', $ip);
+}
+
 function handleEventRequests()
 {
-    // SQLite database file path
     $db_path = __DIR__ . '/../private/habbowood.db';
-
-    // Database connection setup (using SQLite)
     $pdo = new PDO('sqlite:' . $db_path);
-
-    // Set PDO to throw exceptions on errors
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    // IP rate limiting configuration
-    $ip = $_SERVER['REMOTE_ADDR']; // Get user's IP address
-    $limitPeriod = 3600; 
-    $maxVotesPerPeriod = 3; // Maximum votes allowed per IP address within the period
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $hashedIP = hashIP($ip);
 
-    // Handle actions
+    $limitPeriod = 3600; 
+    $maxVotesPerPeriod = 3;
+
     if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['action'])) {
         $action = $_GET['action'];
 
@@ -49,10 +49,11 @@ function handleEventRequests()
                 echo '<?xml version="1.0" encoding="UTF-8" ?><d><alert_movienotfound><![CDATA[No match was found, please check the spelling]]></alert_movienotfound></d>';
             }
         } elseif ($action === "voteMovie" && isset($_GET['title']) && isset($_GET['voteType'])) {
-            // Implement IP rate limiting
-            $query_check_ip = "SELECT COUNT(*) as count FROM votes WHERE ip_address = :ip AND created_at >= datetime('now', '-$limitPeriod seconds')";
+
+            // Check if the hashed IP has voted more than the allowed number of times
+            $query_check_ip = "SELECT COUNT(*) as count FROM votes WHERE ip_address = :hashedIP AND created_at >= datetime('now', '-$limitPeriod seconds')";
             $stmt = $pdo->prepare($query_check_ip);
-            $stmt->bindParam(':ip', $ip, PDO::PARAM_STR);
+            $stmt->bindParam(':hashedIP', $hashedIP, PDO::PARAM_STR);
             $stmt->execute();
             $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
@@ -61,10 +62,10 @@ function handleEventRequests()
                 exit;
             }
 
+            // Proceed with voting logic
             $title = $_GET['title'];
             $voteType = $_GET['voteType'];
 
-            // Determine vote operation based on voteType
             if ($voteType === '1') {
                 $voteOperation = '+1';
             } elseif ($voteType === '0') {
@@ -74,16 +75,15 @@ function handleEventRequests()
                 exit;
             }
 
-            // Update votes in the database
             $updateQuery = "UPDATE movies SET votes = votes {$voteOperation} WHERE title = :title";
             $stmt = $pdo->prepare($updateQuery);
             $stmt->bindParam(':title', $title, PDO::PARAM_STR);
             if ($stmt->execute()) {
-                // Record vote with IP address and timestamp
-                $insertVoteQuery = "INSERT INTO votes (movie_id, ip_address, created_at) VALUES ((SELECT id FROM movies WHERE title = :title), :ip, datetime('now'))";
+                // Record vote with hashed IP address and timestamp
+                $insertVoteQuery = "INSERT INTO votes (movie_id, ip_address, created_at) VALUES ((SELECT id FROM movies WHERE title = :title), :hashedIP, datetime('now'))";
                 $stmt = $pdo->prepare($insertVoteQuery);
                 $stmt->bindParam(':title', $title, PDO::PARAM_STR);
-                $stmt->bindParam(':ip', $ip, PDO::PARAM_STR);
+                $stmt->bindParam(':hashedIP', $hashedIP, PDO::PARAM_STR);
                 $stmt->execute();
 
                 // Fetch updated votes count
@@ -149,6 +149,6 @@ function handleEventRequests()
     $pdo = null;
 }
 
-// Call the facade function to handle the event requests
 handleEventRequests();
+
 ?>
