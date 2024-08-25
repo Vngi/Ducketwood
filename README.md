@@ -2,7 +2,7 @@
 
 Habbowood is an updated version of an old Habbo feature. This repository includes a reworked database system and an updated `event.php` that supports the leaderboard functionality. Here’s what you need to know:
 
-MOST IMPORTANT! PLEASE TEST IT PRIVATELY TO MAKE SURE THE DATABASE CANNOT BE ACCESSED BEFORE RISKING ANY INFORMATION BEING EXPOSED!
+MOST IMPORTANT! PLEASE TEST IT PRIVATELY TO MAKE SURE THE DATABASE CANNOT BE ACCESSED BEFORE RISKING ANY INFORMATION BEING EXPOSED, ASWELL AS THE EVENT.PHP AS IT COULD LEAD TO EXPLOITS IN THE FUTURE!
 
 ## Features
 
@@ -34,6 +34,7 @@ MOST IMPORTANT! PLEASE TEST IT PRIVATELY TO MAKE SURE THE DATABASE CANNOT BE ACC
 ## Conclusion
 
 - If you want to simply have a working function without any SWF edits including the removal of email checks, you can simply replace your event.php with the one provided here as well using our database. 
+- Myself or Ducket are not responsible for how you use this code, if you've not set it up correctly that's on you I will no longer keep this updated unless I plan on updating it on our side too!
 
 For more information on using JPEXS Free Flash Decompiler, visit [JPEXS Free Flash Decompiler]([https://www.free-decompiler.com/flash/](https://github.com/jindrapetrik/jpexs-decompiler). 
 
