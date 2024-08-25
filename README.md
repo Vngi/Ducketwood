@@ -2,6 +2,8 @@
 
 Habbowood is an updated version of an old Habbo feature. This repository includes a reworked database system and an updated `event.php` that supports the leaderboard functionality. Here’s what you need to know:
 
+MOST IMPORTANT! PLEASE TEST IT PRIVATELY TO MAKE SURE THE DATABASE CANNOT BE ACCESSED BEFORE RISKING ANY INFORMATION BEING EXPOSED!
+
 ## Features
 
 - **Database**: The system uses SQLite. Note that the database contains IP addresses to prevent spam voting (limit of 2 votes per person per hour). Ensure to add an `.htaccess` file or an alternative method to secure this file from direct access.
